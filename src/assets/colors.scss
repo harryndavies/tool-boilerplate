@@ -1,26 +1,26 @@
-@use "@croud-ui/tokens/dist/tokens";
+@use '@croud-ui/tokens/dist/tokens';
 
 /*
 * Custom properties used for color picker presets
 */
 :root {
-    --cui-color-text-primary: #{tokens.$color-neutral-900};
-    --cui-color-text-secondary: #{tokens.$color-neutral-700};
+  --cui-color-text-primary: #{tokens.$color-neutral-900};
+  --cui-color-text-secondary: #{tokens.$color-neutral-700};
 
-    --cui-color-primary: #{tokens.$color-primary-500};
-    --cui-color-secondary: #{tokens.$color-secondary-500};
-    --cui-color-success: #{tokens.$color-success-500};
-    --cui-color-error: #{tokens.$color-error-500};
-    --cui-color-warning: #{tokens.$color-warning-500};
+  --cui-color-primary: #{tokens.$color-primary-500};
+  --cui-color-secondary: #{tokens.$color-secondary-500};
+  --cui-color-success: #{tokens.$color-success-500};
+  --cui-color-error: #{tokens.$color-error-500};
+  --cui-color-warning: #{tokens.$color-warning-500};
 
-    --cui-color-primary-dark: #{tokens.$color-primary-700};
-    --cui-color-secondary-dark: #{tokens.$color-secondary-700};
-    --cui-color-success-dark: #{tokens.$color-success-700};
-    --cui-color-error-dark: #{tokens.$color-error-700};
-    --cui-color-warning-dark: #{tokens.$color-warning-700};
+  --cui-color-primary-dark: #{tokens.$color-primary-700};
+  --cui-color-secondary-dark: #{tokens.$color-secondary-700};
+  --cui-color-success-dark: #{tokens.$color-success-700};
+  --cui-color-error-dark: #{tokens.$color-error-700};
+  --cui-color-warning-dark: #{tokens.$color-warning-700};
 
-    --cui-color-brand-yellow: rgb(244,201,27);
-    --cui-color-brand-teal: rgb(109,209,190);
-    --cui-color-brand-black: rgb(41,41,41);
-    --cui-color-brand-grey: rgb(72,72,72);
+  --cui-color-brand-yellow: rgb(244, 201, 27);
+  --cui-color-brand-teal: rgb(109, 209, 190);
+  --cui-color-brand-black: rgb(41, 41, 41);
+  --cui-color-brand-grey: rgb(72, 72, 72);
 }
