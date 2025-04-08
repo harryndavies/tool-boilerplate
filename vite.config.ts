@@ -50,4 +50,13 @@ export default defineConfig({
       },
     },
   },
+
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@use "@croud-ui/element-plus-theme" as *;',
+        api: 'modern',
+      },
+    },
+  },
 })
