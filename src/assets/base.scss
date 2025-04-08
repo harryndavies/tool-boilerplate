@@ -1,3 +1,42 @@
+@use 'sass:meta';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@include meta.load-css('reset');
+@include meta.load-css('colors');
+@include meta.load-css('responsive');
+@include meta.load-css('overrides');
+
+html,
+body {
+  @apply cui-bg-neutral-50 cui-h-full;
+}
+
+#app {
+  @apply cui-h-full;
+}
+
+// sidebar styling
+.cui-sidebar--no-padding {
+  .el-drawer__body {
+    @apply cui-p-0;
+  }
+
+  .el-drawer__header {
+    @apply cui-mb-0;
+  }
+}
+
+.cui-sidebar--no-header-bottom-margin {
+  .el-drawer__header {
+    @apply cui-mb-0;
+  }
+}
+
+.cui-sidebar-title--no-padding {
+  .el-drawer__header {
+    @apply cui-p-0;
+  }
+}

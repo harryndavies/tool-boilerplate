@@ -1,0 +1,14 @@
+.el-dialog.cui-responsive-modal {
+  @apply cui-w-11/12 md:cui-w-10/12 lg:cui-w-10/12 xl:cui-w-8/12 2xl:cui-max-w-6xl cui-m-auto cui-my-3 md:cui-mt-5 md:cui-mb-0;
+}
+
+.el-message-box.cui-responsive-message-box {
+  @apply cui-w-11/12 md:cui-w-8/12 lg:cui-w-fit;
+}
+
+/** Prevent zoom in behaviour for mobile when input font size is below 16px **/
+@media (max-width: 550px) {
+  input {
+    font-size: 16px !important;
+  }
+}

@@ -1,0 +1,16 @@
+@use "@croud-ui/element-plus-theme/src/reset.scss";
+
+// Required for tailwind border and divider utility classes:
+// https://tailwindcss.com/docs/preflight#border-styles-are-reset-globally
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: theme('borderColor.DEFAULT', currentColor);
+}
+
+// Corrects element link component text alignment on windows
+.el-link {
+  vertical-align: unset;
+}
