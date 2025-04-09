@@ -1,45 +1,66 @@
-# tool-boilerplate
+# 🚀 fe-tool-boilerplate
 
-This template should help get you started developing with Vue 3 in Vite.
+> Vue 3 + Vite + TypeScript + Vitest + ESLint — Frontend boilerplate by CroudTech
 
-## Recommended IDE Setup
+[![Vite](https://img.shields.io/badge/Vite-%2335495e.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Vue 3](https://img.shields.io/badge/Vue%203-%2335495e.svg?logo=vue.js&logoColor=white)](https://vuejs.org/)
+[![Degit Ready](https://img.shields.io/badge/Degit-Ready-brightgreen)](https://github.com/Rich-Harris/degit)
+[![Yarn](https://img.shields.io/badge/Yarn-berry-blue?logo=yarn&logoColor=white)](https://yarnpkg.com/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This template will help you quickly start developing with Vue 3, Vite, TypeScript, Element Plust and Tailwind.
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 📦 Project Setup
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 yarn
 ```
 
-### Compile and Hot-Reload for Development
+### 🔥 Compile and Hot-Reload for Development
 
-```sh
+```bash
 yarn dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### 🏗️ Type-Check, Compile and Minify for Production
 
-```sh
+```bash
 yarn build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### 🧪 Run Unit Tests with [Vitest](https://vitest.dev/)
 
-```sh
+```bash
 yarn test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### 🧹 Lint with [ESLint](https://eslint.org/)
 
-```sh
+```bash
 yarn lint
 ```
+
+---
+
+## ⚡ Using This Template with Degit
+
+You can scaffold a new tool project based on this boilerplate using [`degit`](https://github.com/Rich-Harris/degit):
+
+```bash
+npx degit CroudTech/fe-tool-boilerplate croud-tool
+cd croud-tool
+yarn install
+yarn dev
+```
+
+### 🚀 Recommended next steps:
+
+1. 🚚 Rename `croud-tool` to desired tool project name.
+2. 📝 Update `package.json` with new tool project name.
+3. 🧩 (Optional) Re-init git:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit 🎉"
+   ```
