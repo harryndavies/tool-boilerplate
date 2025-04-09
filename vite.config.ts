@@ -14,9 +14,7 @@ export default defineConfig({
       name: 'remoteApp',
       filename: 'remoteEntry.js',
       exposes: {
-        './HelloWorld': './src/components/HelloWorld.vue',
-        './HomeView': './src/views/HomeView.vue',
-        './AboutView': './src/views/AboutView.vue',
+        './IndexView': './src/views/IndexView.vue',
       },
       shared: ['vue'],
     }),
