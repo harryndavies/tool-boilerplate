@@ -1,10 +1,12 @@
-<script setup lang="ts">
-import { ElButton } from 'element-plus'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main class="cui-relative cui-min-h-screen cui-flex cui-flex-col cui-justify-center cui-items-center cui-bg-gray-50 cui-text-gray-900 cui-overflow-hidden">
-    <div class="cui-absolute cui-top-0 cui-left-0 cui-w-full cui-h-full cui-pointer-events-none cui-opacity-5">
+  <main
+    class="cui-relative cui-min-h-screen cui-flex cui-flex-col cui-justify-center cui-items-center cui-bg-gray-50 cui-text-gray-900 cui-overflow-hidden"
+  >
+    <div
+      class="cui-absolute cui-top-0 cui-left-0 cui-w-full cui-h-full cui-pointer-events-none cui-opacity-5"
+    >
       <svg
         class="cui-w-full cui-h-full cui-object-cover"
         xmlns="http://www.w3.org/2000/svg"
@@ -28,14 +30,11 @@ import { ElButton } from 'element-plus'
 
     <section class="cui-text-center cui-px-6 cui-py-12 cui-z-10">
       <h1 class="cui-text-4xl cui-font-extrabold cui-mb-4 cui-text-primary-500">
-        Tool Boilerplate
+        Croud Tool Boilerplate
       </h1>
       <p class="cui-text-lg cui-mb-8 cui-text-gray-600">
-        Kickstart your development with a modern Vue 3 + Vite setup.
+        Kickstart tool development with Vue 3, Vite, Element Plus and Tailwind.
       </p>
-      <ElButton type="primary" size="large">
-        Run Tool
-      </ElButton>
     </section>
 
     <footer class="cui-absolute cui-bottom-4 cui-text-sm cui-text-gray-500 cui-z-10">
